@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Step 3: SEO Optimization -->
+    <!-- Primary Meta Tags -->
+    <title>Elymax Network Solutions - Professional IT Services & Network Solutions in Kenya</title>
+    <meta name="description" content="Elymax Network Solutions provides professional IT services, network setup, maintenance, fiber optic accessories, and security solutions. Reliable tech support for businesses in Kenya.">
+    <meta name="keywords" content="IT services Kenya, network solutions, computer networking, IT support Kenya, network security, fiber optic, wireless solutions, Elymax Network Solutions, routers, switches">
+    <meta name="author" content="Elymax Network Solutions">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elymaxnetworksolutions.com/">
+    <meta property="og:title" content="Elymax Network Solutions - Professional IT Services & Network Solutions">
+    <meta property="og:description" content="Professional IT services, network setup, maintenance, fiber optic accessories, and security solutions in Kenya.">
+    <meta property="og:image" content="https://elymaxnetworksolutions.com/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://elymaxnetworksolutions.com/">
+    <meta property="twitter:title" content="Elymax Network Solutions - Professional IT Services">
+    <meta property="twitter:description" content="Professional IT services, network setup, maintenance, and security solutions in Kenya.">
+    <meta property="twitter:image" content="https://elymaxnetworksolutions.com/images/og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://elymaxnetworksolutions.com/">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Elymax Network Solutions",
+      "url": "https://elymaxnetworksolutions.com",
+      "logo": "https://elymaxnetworksolutions.com/images/logo.png",
+      "description": "Professional IT services and network solutions provider in Kenya",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Johari House Shop S4",
+        "addressLocality": "Nairobi",
+        "addressRegion": "Nairobi",
+        "postalCode": "00100",
+        "addressCountry": "KE"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+254-745-911-435",
+        "email": "gdanson6@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "KE",
+        "availableLanguage": ["English", "Swahili"]
+      },
+      "sameAs": []
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Elymax Network Solutions",
+      "image": "https://elymaxnetworksolutions.com/images/logo.png",
+      "description": "Professional IT services and network solutions provider in Kenya specializing in networking hardware, fiber optic accessories, and consulting services",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Johari House Shop S4",
+        "addressLocality": "Nairobi",
+        "addressRegion": "Nairobi",
+        "postalCode": "00100",
+        "addressCountry": "Kenya"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-1.286389",
+        "longitude": "36.817223"
+      },
+      "url": "https://elymaxnetworksolutions.com",
+      "telephone": "+254-745-911-435",
+      "priceRange": "$$",
+      "openingHours": "Mo-Fr 08:00-17:00, Sa 09:00-14:00",
+      "areaServed": "Kenya",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Network Solutions",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Wireless Network Solutions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Network Security"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fiber Optic Installation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IT Consulting"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    <!-- End SEO Optimization -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #ff7e29 0%, #ff5a00 100%);
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 122, 0, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(255, 122, 0, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(255, 122, 0, 0);
+            }
+        }
+        .slide-in-left {
+            transform: translateX(-50px);
+            opacity: 0;
+            transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+        .slide-in-left.visible {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        .slide-in-right {
+            transform: translateX(50px);
+            opacity: 0;
+            transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+        .slide-in-right.visible {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        .stagger-animation > * {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+        .stagger-animation.visible > * {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .stagger-animation.visible > *:nth-child(1) { transition-delay: 0.1s; }
+        .stagger-animation.visible > *:nth-child(2) { transition-delay: 0.2s; }
+        .stagger-animation.visible > *:nth-child(3) { transition-delay: 0.3s; }
+        .stagger-animation.visible > *:nth-child(4) { transition-delay: 0.4s; }
+        .stagger-animation.visible > *:nth-child(5) { transition-delay: 0.5s; }
+        .stagger-animation.visible > *:nth-child(6) { transition-delay: 0.6s; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <div class="bg-gradient-to-r from-orange-500 to-orange-600 text-white p-2 rounded-lg mr-2 pulse-animation">
+                            <i class="fas fa-network-wired text-xl"></i>
+                        </div>
+                        <span class="text-xl font-bold text-gray-800">Elymax Network Solutions</span>
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-orange-500 font-medium relative group">
+                        Home
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="about.html" class="text-gray-600 hover:text-orange-500 transition-colors duration-300 relative group">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="products.html" class="text-gray-600 hover:text-orange-500 transition-colors duration-300 relative group">
+                        Products
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="contact.html" class="text-gray-600 hover:text-orange-500 transition-colors duration-300 relative group">
+                        Contact
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </div>
+                
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-orange-500 transition-colors duration-300">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu (hidden by default) -->
+            <div id="mobile-menu" class="md:hidden hidden py-4 border-t">
+                <div class="flex flex-col space-y-4">
+                    <a href="index.html" class="text-orange-500 font-medium">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-orange-500 transition-colors duration-300">About</a>
+                    <a href="products.html" class="text-gray-600 hover:text-orange-500 transition-colors duration-300">Products</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-orange-500 transition-colors duration-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - MODIFIED TO CENTER THE WELCOME MESSAGE -->
+    <section class="hero-gradient text-white py-20 overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center text-center">
+                <div class="max-w-3xl fade-in">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Network Solutions for Everyone, Welcome!</h1>
+                    <p class="text-xl mb-8 opacity-90">Providing cutting-edge networking hardware, fiber optic accessories, and consulting services to keep your home and business connected and secure.</p>
+                    <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 stagger-animation">
+                        <a href="products.html" class="bg-white text-orange-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105">Our Products</a>
+                        <a href="contact.html" class="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-orange-500 transition duration-300 transform hover:scale-105">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12 fade-in">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Elymax?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">We provide comprehensive network solutions tailored to your specific needs, ensuring reliability and performance.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 stagger-animation">
+                <div class="bg-gray-50 p-6 rounded-xl card-hover border border-gray-200">
+                    <div class="bg-gradient-to-r from-orange-500 to-orange-600 text-white w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-bolt text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">High Performance</h3>
+                    <p class="text-gray-600">Our solutions deliver exceptional speed and reliability for all your networking needs.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-xl card-hover border border-gray-200">
+                    <div class="bg-gradient-to-r from-orange-500 to-orange-600 text-white w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-shield-alt text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Enhanced Security</h3>
+                    <p class="text-gray-600">Protect your network with our advanced security solutions and protocols.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-xl card-hover border border-gray-200">
+                    <div class="bg-gradient-to-r from-orange-500 to-orange-600 text-white w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-headset text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">24/7 Support</h3>
+                    <p class="text-gray-600">Our expert team is available around the clock to assist with any issues.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-orange-500 to-orange-600 text-white">
+        <div class="container mx-auto px-4 text-center fade-in">
+            <h2 class="text-3xl font-bold mb-4">Ready to Upgrade Your Network?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Contact us today for a free consultation and discover how our solutions can transform your connectivity.</p>
+            <a href="contact.html" class="bg-white text-orange-500 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105 inline-block">
+                Get Started Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer - MODIFIED TO CENTER CONTENT ON MOBILE -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left stagger-animation">
+                <div class="md:flex md:flex-col md:items-start">
+                    <div class="flex items-center justify-center md:justify-start mb-4">
+                        <div class="bg-gradient-to-r from-orange-500 to-orange-600 text-white p-2 rounded-lg mr-2">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <span class="text-xl font-bold">Elymax Network Solutions</span>
+                    </div>
+                    <p class="text-gray-400">Providing advanced networking solutions for businesses of all sizes since 2023.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition duration-300">About</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition duration-300">Products</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Products</h3>
+                    <ul class="space-y-2">
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition duration-300">Wireless Solutions</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition duration-300">Network Security</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition duration-300">Switches & Routers</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition duration-300">Management Software</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center justify-center md:justify-start">
+                            <i class="fas fa-map-marker-alt mr-2 text-orange-400"></i>
+                            <span>Johari House Shop S4</span>
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start">
+                            <i class="fas fa-phone mr-2 text-orange-400"></i>
+                            <span>0745 911 435</span>
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start">
+                            <i class="fas fa-envelope mr-2 text-orange-400"></i>
+                            <span>gdanson6@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Elymax Network Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+            
+            // Close mobile menu when clicking on a link
+            const mobileLinks = mobileMenu.querySelectorAll('a');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+            
+            // Animation on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe elements with animation classes
+            document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right, .stagger-animation').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
